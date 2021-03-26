@@ -15,12 +15,12 @@ public class AppConfig {
     }
 
     @Bean
-    public  static Egg6 getEgg (Needle7 needle) {
+    public static Egg6 getEgg(Needle7 needle) {
         return new Egg6(needle);
     }
 
     @Bean
-    public static Deth8 getDeth () {
+    public static Deth8 getDeth() {
         return new Deth8();
     }
 }
